@@ -1,0 +1,126 @@
+<!--Aprendizagem de desenvolvimento de Software
+introducao ao desenvolvimento web com prof hudson
+Aluno:luciel carvalho aguiar
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro desafio html</title>
+</head>
+<body>
+    <!--- Headings-->
+   <h1>Meu Blog de Viagens</h1>
+   <h2>Destino Populares</h2>
+   <h3>Europa</h3>
+   <h4>Italia</h4>
+   <p>Descrubra as belezas da Italia, desde suas cidades historicas ate as suas paisagens deslumbrantes </p>
+   <h3>Asia</h3>
+   <h4>japão</h4>
+   <!---paragrafo-->
+   <p>Explore a rica cultura e as inovações tecnologicas do japão</p>
+   <div id = "secao=principal">
+    <p class="texto-destaque">este e um exmplo de paragrafo no html. ele introduz o conceito de blocos
+        de texto, fundamentais para a estruturacao do conteudo em uma pagina web.
+    paragrafos ajudam a separar visualmente diferentes ideias ou secaoes de texto, tornado o conteudo mais facil de ler e navvegar </p>
+    <p>ao cria conteudo pra web,e importante considera como aos paragrafos 
+    sao usados pra quiar o leitor atraves do seu texto. uma boa pratica e focar em uma unica ideia por paragrafos, utilizando frases claras e diretas
+    </p>
+    <!-- tributos-->
+    <div id = "secao=principal"></div>
+    <p> class= "texto-destaque"></p>
+    <img src="https://www.cnnbrasil.com.br/economia/"> alt="Descricao da imagem extena " />
+
+     <!-- imagens-->
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9S7tw5toN-1TXjB3iNbFXOQ3dY6ayKT-pvQ&s">
+
+     <!--imagem externa-->
+     <img src="https://midias.correiobraziliense.com.br/_midias/jpg/2024/09/05/675x450/1_12-39808221.jpg?20240905122611?20240905122611">
+     alt="Descricao da imagem externa"
+     
+     <ol>
+        <li>iniciar o computador</li>
+        <li>Abrir o navegador</li>
+        <li>Acessar o site desejado</li>
+    </ol>
+
+    <ul>
+        <li>maças</li>
+        <li>bananas</li>
+        <LI>LARANJAS</LI>
+
+    </ul>
+    <UL>
+        <li>macas</li>
+        <li>bananas</li>
+    </UL>
+    <li>
+        verduras
+        <ul>
+            <li>espinafre</li>
+            <li>alfrace</li>
+        </ul>
+    </li>
+    <ul>
+    
+        <!-- Elementos para formatação-->
+        <p>
+        <strong>Texto importante</strong>, geralmente usado para indicar
+        forte
+        enfase. <b>Texto apenas em negrito</b> sem implicar maior importancia.
+        </p>
+
+        <p>
+    <em>enfatizado</em>, geralmente para indicar enfase moderada.
+    <i>Texto em italico</i> para fins de estilo.
+        </p>
+    
+
+        <p>
+    <u> texto sublinhado</u> usado para indicar adicoes ou para fins estilisticos.
+
+        </p>
+        <p><s>texto riscado</s> para mostrar remocao ou correcao.</p>
+        <p><mark> texto destacado</mark>para chamar atencao</p> 
+
+        <p>
+            <small>texto em tamanho menor</small> para notas de rodape ou detalhes.
+        </p>
+
+        <p>E=mc<sup>2</sup> h<sub>2</sub>0</p>
+
+        <!-- Comentarios-->
+        <!-- isto e um comentario simples no html-->
+
+        <p>este e um paragrafo visivel na paginas</p>
+
+        <!--
+            este e um comentario de multiplas linhas.
+            pode ser muito util para explicar partes mais complexas do seu codigo
+            ou para temporariamente desativa parte do cosdigo.
+        -->
+
+        <!-- XComentarios tambem podem ser usados para deixa lembretes-->
+
+<!-- todo: adicionar mais conteudos sobre o tema-->
+<!-- elemento inline de bloco-->
+
+
+<p>este e um exemplo de <strong>elemento inline</strong>dentro de um paragrafos</p>
+
+
+        <p>
+            <div>
+                este e um exemplo de
+            </div>elemento em bloco</div>
+            dentro de outro bloco.
+            </div>
+        </p>
+    <p>
+        no elemento acima, <strong> e um elemento inline</strong> que formata parte do texto dentro do paragrafo, sem interromper o fluxo dp texto.
+    </p>
+
+    <!---->
